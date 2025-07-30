@@ -6,7 +6,37 @@
 
 @layer base {
   :root {
+    --primary: 334 100% 50%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 220 60% 60%;
+    --secondary-foreground: 0 0% 100%;
+
+    --background: 0 0% 100%;
+    --foreground: 220 15% 15%;
+
+    --card: 0 0% 98%;
+    --card-foreground: 220 15% 15%;
+
+    --popover: 0 0% 98%;
+    --popover-foreground: 220 15% 15%;
+
+    --muted: 210 10% 85%;
+    --muted-foreground: 220 15% 35%;
+
+    --accent: 290 100% 70%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 100% 66%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 15% 90%;
+    --input: 220 15% 90%;
+    --ring: 220 90% 56%;
+
     --radius: 0.5rem;
+
+    --font-work-sans: "Work Sans", sans-serif;
   }
 }
 
